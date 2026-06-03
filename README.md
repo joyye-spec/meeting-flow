@@ -1,12 +1,15 @@
 # Meeting Flow · 会议纪要自动化
 
 > **说一句话，会议纪要自动写好。** 录音上传 → 豆包 ASR 转写 → AI 生成纪要 → 回填飞书文档 + 多维表格，全程无需人工干预。
+<img width="1693" height="929" alt="1" src="https://github.com/user-attachments/assets/46ddd7e2-fc15-4849-b411-451ed5313052" />
+<img width="1536" height="1024" alt="3" src="https://github.com/user-attachments/assets/98695a95-0849-4d88-bfc3-0348f644d8c1" />
+<img width="1536" height="1024" alt="2" src="https://github.com/user-attachments/assets/d76edc33-53e7-4d5f-b3c4-0284380bd12d" />
 
 ---
 
 ## 整体流程
 
-![Meeting Flow 整体流程](assets/workflow.png)
+
 
 ---
 
