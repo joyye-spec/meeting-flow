@@ -1,2 +1,6 @@
 assets/prompts.md
 .DS_Store
+*.env
+*.secret
+config.local.json
+*.log

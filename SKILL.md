@@ -234,7 +234,7 @@ tmp_download_url = result["tmp_download_urls"][0]["tmp_download_url"]
 - ✅ 无需认证，curl 直接 200 OK
 - ✅ 国内 CDN，豆包 ASR（火山引擎）可直接访问
 - ✅ 支持大文件
-- ⚠️ 有时效性，获取后尽快使用
+- ⚠️ 有时效性（约 4 小时），获取后尽快使用。若流程中间环节卡顿超时，ASR submit 会返回错误码 1015，需重新获取 URL
 
 ⚠️ **坑3：为什么只能走这条路**
 - 飞书云盘文件 → 需要 Bearer token → 豆包 ASR 不带认证头 → 403

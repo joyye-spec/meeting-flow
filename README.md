@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Feishu](https://img.shields.io/badge/Platform-Feishu-blue.svg)](https://www.feishu.cn)
+
 # Meeting Flow · 会议纪要自动化
 
 > **说一句话，会议纪要自动写好。** 录音上传 → 豆包 ASR 转写 → AI 生成纪要 → 回填飞书文档 + 多维表格，全程无需人工干预。
@@ -52,11 +54,14 @@ Bot 在群里收到通知 → 从 bitable 获取待处理记录
                             │
               ┌─────────────┼─────────────┐
               ↓             ↓             ↓
-       ┌────────────┐ ┌──────────┐ ┌──────────┐
+       ┌────────────┐ ┌─ ─ ─ ─ ─┐ ┌─ ─ ─ ─ ─┐
        │  豆包 ASR   │ │ Codex CLI│ │ Obsidian │
        │ (语音转文字) │ │(纪要生成) │ │(本地备份) │
-       └────────────┘ └──────────┘ └──────────┘
+       └────────────┘ └─ ─ ─ ─ ─┘ └─ ─ ─ ─ ─┘
+                           可选          可选
 ```
+
+> 💡 虚线框为可选组件。未安装 Codex CLI 时，openclaw 内置 AI 直接生成纪要；不使用 Obsidian 则跳过本地备份步骤。
 
 | 组件 | 用途 | 必须？ |
 |------|------|--------|
